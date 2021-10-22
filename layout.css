@@ -1,0 +1,71 @@
+
+/*=========== RESET ==========*/
+body {margin-left:0%; margin-right:0%; margin-top:0; padding:0;}
+a {text-decoration: none;}
+ul {list-style: none;}
+
+/* CABEÇALHO */
+.banner {width: 100%;  float:left; background: #003; color:#FFF}
+.banner img{margin-top:2%}
+.banner h3{font-size: 1.3em}
+.banner h3{font-size: 1.1em}
+
+/* campanha e promoção */
+.promocao {width:80%; float:left; margin-bottom: 1%; margin-top:1%; margin-left:5%; padding-right:1%; text-align:center; background-color: #CCC}
+.promocao h3 {font-size:1em; color: #300}
+
+/* Botão compra */
+.compra {width:80%; float:right; margin-bottom: 1%; margin-top:1%; margin-right:5%; padding-left:1%}
+.compra button {padding: 5%; color:#039; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF; float:right}
+
+/* O que aprender*/
+.aprenda {width:80%; float:left; margin-bottom: 1%; margin-top:1%; margin-left:5%; padding: 1%}
+.aprenda h3 {font-size: 1.5em; color: #130400; margin-top: 2%; }
+.aprenda h4 {margin-top: 2%; font-size: 1em; color: #130400; line-height: 1.5em;}
+
+/* O que aprender*/
+.livro {width:80%; float:left; margin-bottom: 1%; margin-top:1%; margin-right:5%; padding: 1%}
+.livro img {float:left; width:80%; margin-right:5%; padding:1%}
+
+/* Historia*/
+.historia {width:90%; float:left; text-align:center; margin-bottom: 1%; margin-top:1%; margin-left:5%; background-color:#FC6}
+.historia h4 {font-size: 1em; color: #000;line-height: 1.5em;}
+
+/* captura de leads */
+.lead{width: 80%; float:left; margin-bottom:0.5%; margin-left:10%}
+.lead h2 {font-size: 1.5em; color:#03C; font-weight: 700}
+.lead h3 {font-size: 1em; color: #000;}
+.lead form {margin-top: 2%;}
+.lead input {width:80%; padding: 5%; color:#FFF; margin-top:4%; border: 1px solid rgba(255,255,255,0.3); border-radius: 9px 9px 9px 9px; float:center; background-color:#99F;}
+.lead button {padding: 5%; color:#039; cursor: pointer; margin-top: 2%; border-radius: 9px 9px 9px 9px; margin-bottom: 3%; background-color:#FFF}
+
+/* RODAPÉ */
+.rodape {width: 100%; float:left; background-color:#003; color: rgba(255, 255, 255, 0.7); padding-bottom:1%; padding-top: 2%;}
+.copyright {text-align: center;}
+.social-icons a {font-size: 1.5em; color: rgba(255,255,255,0.7); margin-right: 3%;}
+.social-icons a:last-child {margin-right: 0;}
+.social-icons a:hover {color: rgb(255,255,255);}
+
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+.promocao {width:65%}
+.compra {width:20%}
+.aprenda {width:55%}
+.livro {width:30%; float:right; margin-top:20%}
+.lead{width: 70%; margin-left:15%}
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 760px) {
+.aprenda h3 {font-size: 2em;}
+.aprenda h4 {margin-top: 2%; font-size: 1.3em}
+.historia h4 {font-size: 1em}	
+.lead{width: 50%; margin-left:25%}
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+@media screen and (min-width: 960px) {
+.historia h4 {font-size: 0.9em}	
+.lead{width: 30%; margin-left:35%}
+}
